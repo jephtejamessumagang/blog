@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>LOGIN FORM</title>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f4f7;
+    padding:30px;
+}
+
+.container{
+    display:flex;
+    gap:40px;
+    max-width:900px;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.column{
+    flex:1;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+.code{
+    background:#f7f7f7;
+    padding:6px 10px;
+    border-radius:6px;
+    margin:8px 0;
+    font-family:monospace;
+}
+
+input, button{
+    margin:8px 0;
+    padding:6px;
+    width:100%;
+}
+
+.inline{
+    display:flex;
+    gap:10px;
+    align-items:center;
+}
+
+.inline input{
+    width:auto;
+}
+
+.range{
+    width:100%;
+}
+
+.submit{
+    background:#2b7cff;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+.reset{
+    background:#ccc;
+    border:none;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>LOGIN FORM</h1>
+
+<div class="container">
+
+<div class="column">
+</div>
+
+<div class="column">
+
+<input type="text" placeholder="John Doe">
+
+<input type="password" placeholder="Password">
+
+<input type="button" value="Click Me">
+
+<div class="inline">
+<label><input type="checkbox"> User</label>
+<label><input type="checkbox" checked> Admin</label>
+<label><input type="checkbox"> Editor</label>
+</div>
+
+<input type="color">
+
+<input type="date">
+
+<input type="time">
+
+<input type="email" placeholder="jane.smith@example.com">
+
+<input type="file">
+
+<input type="url" placeholder="https://www.openai.com">
+
+<input type="week">
+
+<input type="number" value="42">
+
+<input type="month">
+
+<div class="inline">
+<label><input type="radio" name="lang"> HTML</label>
+<label><input type="radio" name="lang" checked> Javascript</label>
+</div>
+
+<input type="range" class="range">
+
+<input type="reset" class="reset">
+
+<input type="search" placeholder="Search topics">
+
+<input type="submit" class="submit">
+
+<input type="hidden">
+
+<input type="tel" placeholder="123-456-7890">
+
+<input type="datetime-local">
+
+</div>
+
+</div>
+
+</body>
+</html>
